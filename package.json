@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "docker:up": "docker compose up -d"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "sass": "^1.56.1",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "morgan": "^1.10.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "name": "tpi_backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/mauricio960/tpi_backend.git",
+    "author": " ",
+    "license": "MIT"
+}
